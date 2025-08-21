@@ -1,0 +1,49 @@
+yesta
+	lúmëa sa tulta-"Digite um número a sua altura em metros (ex: 1,70): \n"-::
+
+	lúmëa atarwa harya 0.9::
+
+	ná sandë sa hauta atarwa <
+		tancë-"voce e maior que o grandioso aventureiro Bilbo Bolseiro"-::
+		lúmëa enwina harya sa nac atarwa::
+		tancë-"Se um mago te deixasse "-::
+		tancë-enwina=::
+		tancë-"metros maior, você teria a mesma altura de Bilbo.\n"-::
+	>
+	lá sandë <
+		tancë-"voce e menor que o grandioso aventureiro Bilbo Bolseiro"-::
+		tancë-"voce e menor que o grandioso aventureiro Bilbo Bolseiro"-::
+		lúmëa enwina harya sa yo atarwa::
+		tancë-"Se um mago te deixasse "-::
+		tancë-enwina=::
+		tancë-"metros menor, voce teria a mesma altura de Bilbo.\n"-::
+	>
+
+	nórëa urkhais harya 10::
+	nórëa intya tulta-"Voce esta caminhando na floresta e um grupo de meio-orcs aparecem, quantos vc imagina que sao?: "-::
+
+	ná sandë intya ve urkhais <
+		tancë-"\nAcertou!!"-::
+	>
+
+	ná sandë intya úvëa urkhais <
+		tancë-"\nErrou!!"-::
+	>
+	tancë-"Que começe a batalha!!!"-::
+
+
+	úrië sandë urkhais hauta 0 <
+    	tancë-"Meio-orc morto! "-::
+    	urkhais harya urkhais nac 1::
+	>
+	tancë-"Voce derrotou todos!!\n"-::
+	tancë-"Voce entao vai procurar moedas nos corpos dos inimogos derrotados.\n"-::
+	nórëa harma harya 5::
+
+
+	carë úrië <
+    	tancë-"Voce encontrou uma moeda"-::
+    	harma harya harma nac 1::
+	>
+	úrië sandë harma hauta 0::
+metta
